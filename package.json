@@ -1,12 +1,12 @@
 {
   "name": "moment-business-days-it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MomentJS plugin to use business days with italian holidays",
   "main": "index.js",
   "scripts": {
     "node-test": "node ./test.js"
   },
-  "author": "elrancid@gmail.com",
+  "author": "Davide Zeffiro <elrancid@gmail.com>",
   "license": "MIT",
   "deprecated": false,
   "engine": "node >= 0.10.26",
@@ -18,7 +18,8 @@
     "days",
     "plugin",
     "italian",
-    "holidays"
+    "holidays",
+    "easter"
   ],
   "peerDependencies": {
     "moment-business-days": "1.x.x"

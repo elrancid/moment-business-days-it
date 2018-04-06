@@ -2,7 +2,7 @@
 
 
 if (typeof require === 'function') {
-    var moment = require('moment-business-days');
+  var moment = require('moment-business-days');
 }
 
 moment.locale('it');
@@ -51,10 +51,7 @@ moment.addHoliday = function(dateDDMM) {
 
 
 /**
- * From [moment-easter](https://github.com/zaygraveyard/moment-easter/blob/master/moment.easter.js)
- *
- * I found this algorithm on
- * http://www.merlyn.demon.co.uk/estralgs.txt
+ * I found this algorithm on [moment-easter](https://github.com/zaygraveyard/moment-easter/blob/master/moment.easter.js)
  *
  * Given by
  * Al Petrofsky, San Mateo County, California, U.S.A., E-mail 2009-05-22
